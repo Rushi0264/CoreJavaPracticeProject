@@ -19,6 +19,7 @@ public class InputFromUser {
             //System.out.println(e.toString());
             e.printStackTrace();
             //System.out.println(e);
+            System.out.println("Hello java");
         }
     }
 }

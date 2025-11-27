@@ -6,7 +6,6 @@ public class EqualsMethod {
         StringBuffer sb2 = new StringBuffer("deepak");
         StringBuffer sb3 = sb1.append("hii");
 
-
         System.out.println(sb1.equals(sb2));
         System.out.println(sb3.equals(sb1));
     }
