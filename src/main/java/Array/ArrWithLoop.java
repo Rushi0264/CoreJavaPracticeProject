@@ -35,7 +35,5 @@ public class ArrWithLoop {
         for(int i=0; i< Car.length; i++){
             System.out.println(Car[i]);
         }
-
-
     }
 }

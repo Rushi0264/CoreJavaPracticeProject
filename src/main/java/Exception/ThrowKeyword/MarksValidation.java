@@ -39,6 +39,8 @@ public class MarksValidation {
             System.out.println(e.getMessage());
         }
 
-        sc.close();
+        finally {
+            sc.close();
+        }
     }
 }
