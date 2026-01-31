@@ -20,7 +20,7 @@ public class ThreadLifeCycleDemo extends Thread{
         //runnable
         t.start();
         System.out.println("Thread state (AFTER START) : "+t.getState());
-
+        
         Thread.sleep(500);
         System.out.println("Thread state (TIMED_WAITING) : "+t.getState());
 
